@@ -1,0 +1,8 @@
+# ChangeGuard mock gateway pricing (SYNTHETIC — set by learner, verify on provider site).
+# All LLM calls in this repo go through the mock gateway; these prices only
+# feed cost accounting in evals/demos. Units: USD per 1K tokens.
+mock:
+  input_per_1k: 0.0015
+  output_per_1k: 0.002
+  currency: USD
+  note: "set by learner — verify on provider site"
